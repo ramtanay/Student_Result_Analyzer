@@ -1,260 +1,297 @@
-# 🎓 Student Academic Performance Dashboard (Excel)
+# 🎓 Student Result Analyzer Dashboard (Microsoft Excel)
 
-A fully interactive **Student Academic Performance Dashboard** built entirely in **Microsoft Excel**. This project demonstrates real-world **Data Analysis**, **Data Cleaning**, **Dashboard Design**, **KPI Creation**, and **Interactive Reporting** skills using Excel.
+A professional **Student Result Analyzer Dashboard** built entirely in **Microsoft Excel** to analyze student academic performance through interactive dashboards, Pivot Tables, Pivot Charts, KPI cards, Slicers, Hyperlinks, and automated Report Cards.
 
----
-
-## 📌 Project Overview
-
-Educational institutions generate a large amount of student performance data every semester. Analyzing this data manually is time-consuming and often fails to provide meaningful insights.
-
-This dashboard transforms raw student records into an interactive analytics solution that enables teachers, administrators, and decision-makers to monitor academic performance, attendance, grades, and subject-wise results efficiently.
+This project demonstrates practical **Data Analysis**, **Dashboard Design**, **Business Reporting**, and **Excel Automation** skills used in real-world educational analytics.
 
 ---
 
-## 🎯 Objectives
+# 📌 Project Overview
+
+Educational institutions manage large amounts of student academic data, making manual analysis time-consuming and inefficient.
+
+This project transforms raw student records into an interactive Excel dashboard that enables teachers, administrators, and decision-makers to quickly analyze student performance, identify top-performing students, compare grades, evaluate subject-wise averages, and generate individual report cards.
+
+The dashboard provides dynamic filtering using Slicers and includes an automated Student Report Card for quick performance review.
+
+---
+
+# 🎯 Project Objectives
 
 - Analyze student academic performance.
-- Monitor attendance and grades.
-- Compare performance across streams and sections.
-- Identify top-performing and struggling students.
-- Build a professional and interactive Excel dashboard.
-- Demonstrate Excel data analysis skills for portfolio purposes.
+- Monitor overall pass and fail statistics.
+- Compare grade distribution.
+- Compare subject-wise average marks.
+- Identify the overall top-ranking student.
+- Generate interactive student report cards.
+- Build a professional Excel dashboard using business intelligence techniques.
 
 ---
 
-## 📂 Dataset
+# 📂 Dataset
 
-The dataset contains information about students including:
+The dataset includes the following student information:
 
-| Column |
-|---------|
-| Student ID |
-| Student Name |
-| Gender |
-| Stream |
-| Section |
-| Maths |
-| English |
-| Economics |
-| Government |
-| Literature in English |
-| Computer Science |
-| Geography |
-| CRS |
-| Agriculture Science |
-| Commerce |
-| Marketing |
-| Civic Education |
-| Total Marks |
-| Student Average |
-| Position |
-| Grade |
-| Attendance % |
-| Remark |
+- Student ID
+- Student Name
+- Gender
+- Stream
+- Section
+- Maths
+- English
+- Economics
+- Government
+- Literature in English
+- Computer Science
+- Geography
+- CRS
+- Agriculture Science
+- Commerce
+- Marketing
+- Civic Education
+- Total Marks Obtained
+- Student Average (%)
+- Position
+- Grade
+- Attendance Percentage
+- Remark
 
 ---
 
-## 🧹 Data Cleaning
+# 🧹 Data Cleaning
 
-The raw dataset was cleaned before analysis using Excel.
+Before creating the dashboard, the dataset was cleaned and prepared using Microsoft Excel.
 
-Cleaning steps included:
+Data cleaning tasks included:
 
 - Removing duplicate records
 - Handling missing values
 - Standardizing text formatting
-- Correcting inconsistent spellings
-- Verifying numeric values
-- Formatting percentages
-- Checking invalid marks
-- Creating calculated columns
-- Validating grades and remarks
+- Validating numerical values
+- Formatting attendance percentages
+- Calculating total marks
+- Calculating student average
+- Assigning grades
+- Generating remarks based on performance
 
 ---
 
-## 📊 Dashboard Features
+# 📊 Dashboard Features
 
-### KPI Cards
+## 📌 KPI Cards
+
+The dashboard displays important academic KPIs including:
 
 - 👨‍🎓 Total Students
-- 📚 Total Streams
-- 🏫 Total Sections
-- 🏆 Highest Marks
-- 📉 Lowest Marks
-- 📈 Average Marks
-- ⭐ Average Attendance
-- 🥇 Top Performer
-- 🎖 Number of A Grades
-- ❌ Failed Students
+- ✅ Total Students Passed
+- ❌ Total Students Failed
+- 🏆 Overall 1st Rank Student
+- 📚 Subject-wise Average Marks Panel
 
 ---
 
-### Interactive Charts
+## 📈 Interactive Visualizations
 
-- Subject-wise Average Marks
-- Grade Distribution
-- Stream-wise Performance
-- Gender Distribution
-- Attendance Analysis
-- Top 10 Students
-- Bottom 10 Students
-- Pass vs Fail Analysis
-- Section-wise Performance
-- Attendance vs Marks Scatter Plot
-- Marks Distribution Histogram
-- Subject Difficulty Analysis
+The dashboard includes the following charts:
+
+- 🎯 Grade Distribution by Gender (Pie Chart)
+- 📊 Grade Count by Stream (Column Chart)
+- 📈 Subject-wise Average Marks Comparison (Column Chart)
+- 🏆 Top 10 Students Ranking (Funnel Chart)
+- 🍩 Overall Grade Distribution (Doughnut Chart)
 
 ---
 
-### Interactive Filters (Slicers)
+## 🎛 Interactive Filters
 
-The dashboard includes slicers for:
+The dashboard uses Excel Slicers for dynamic filtering.
+
+Available filters:
 
 - Gender
 - Stream
-- Section
 - Grade
-- Remark
 
-Users can filter the entire dashboard dynamically with a single click.
+Selecting any slicer automatically updates all Pivot Tables, Pivot Charts, and dashboard metrics.
 
 ---
 
-## 📈 Insights Generated
+## 📄 Dynamic Student Report Card
+
+The workbook also contains an interactive Report Card module.
+
+Features include:
+
+- Student Selection using Slicer
+- Student Name
+- Student ID
+- Percentage
+- Rank
+- Grade
+- Remarks
+- Stream
+- Section
+- Subject-wise Marks
+
+The report updates automatically whenever a different student is selected.
+
+---
+
+# 📈 Insights Generated
 
 The dashboard helps answer questions such as:
 
-- Which stream performs the best?
-- Which subject has the lowest average marks?
-- Who are the top-performing students?
-- Which students need academic improvement?
-- Does higher attendance improve performance?
-- How are grades distributed?
-- Which section performs better?
-- What is the overall pass percentage?
+- How many students passed and failed?
+- Who secured the overall first rank?
+- How are grades distributed among students?
+- What is the average mark in each subject?
+- Which students are among the Top 10 performers?
+- How does student performance vary across different streams?
+- How does grade distribution differ by gender?
+- What are the complete academic details of an individual student?
 
 ---
 
-## 🛠 Tools Used
+# 🛠 Tools & Technologies Used
 
 - Microsoft Excel
 - Pivot Tables
 - Pivot Charts
 - Slicers
-- Conditional Formatting
 - Excel Tables
+- Hyperlinks
+- Conditional Formatting
 - Data Validation
-- IF Functions
+- IF Function
 - COUNTIF
 - SUMIFS
 - AVERAGEIFS
-- INDEX-MATCH / XLOOKUP
-- Dynamic Named Ranges
+- XLOOKUP / INDEX-MATCH
 
 ---
 
-## 📊 Dashboard Components
+# 📊 Dashboard Components
 
-- Executive KPI Cards
-- Interactive Pivot Charts
-- Dynamic Student Report
-- Performance Summary
-- Attendance Analysis
-- Grade Analysis
-- Subject Analysis
-- Stream Comparison
+The project contains two major dashboards:
+
+### 📌 Student Result Dashboard
+
+- KPI Cards
+- Subject Average Panel
+- Overall Top Rank Card
+- Grade Distribution by Gender
+- Grade Count by Stream
+- Subject Average Comparison
+- Top 10 Students Funnel Chart
+- Overall Grade Distribution
+- Interactive Filters
+- Navigation Buttons
+
+### 📄 Student Report Card
+
+- Student Selection Panel
+- Student Information
+- Subject-wise Marks
+- Percentage
+- Rank
+- Grade
+- Remarks
+- Stream
+- Section
+- Navigation Button
 
 ---
 
-## 📈 Skills Demonstrated
+# 📈 Skills Demonstrated
 
-This project demonstrates the following Data Analyst skills:
+This project demonstrates the following Data Analytics skills:
 
 - Data Cleaning
-- Data Transformation
-- Data Visualization
+- Data Preparation
 - Dashboard Design
-- Business Intelligence
 - KPI Development
+- Pivot Table Analysis
+- Pivot Chart Design
 - Interactive Reporting
-- Data Analysis
-- Excel Automation
+- Excel Dashboard Development
+- Business Reporting
+- Hyperlink Navigation
+- Dynamic Report Generation
 - Problem Solving
 
 ---
 
-## 📸 Dashboard Preview
+# 📸 Dashboard Preview
 
-> *(Add screenshots of your dashboard here)*
+### Student Result Dashboard
 
-Example:
+<img width="743" height="359" alt="Screenshot (88)" src="https://github.com/user-attachments/assets/de7f9647-7b62-45ea-bc93-edd24a928cf0" />
 
-```
-images/dashboard.png
-```
+
+### Student Report Card
+
+<img width="637" height="366" alt="Screenshot (89)" src="https://github.com/user-attachments/assets/f4aba54f-f0af-4828-b727-27778957340d" />
+
 
 ---
 
-## 🚀 How to Use
+# 🚀 How to Use
 
 1. Open the Excel workbook.
 2. Enable editing if prompted.
-3. Navigate to the Dashboard worksheet.
-4. Use the slicers to filter data.
-5. Explore KPIs and charts dynamically.
+3. Navigate to the **Dashboard** worksheet.
+4. Use the **Gender**, **Stream**, and **Grade** slicers to filter the dashboard.
+5. Click the **Report Card** button to open the dynamic student report.
+6. Select a student to view their complete academic report.
+7. Use the navigation buttons to move between sheets.
 
 ---
 
-## 📁 Project Structure
+# 📁 Project Structure
 
 ```
-Student-Academic-Dashboard/
+Student-Result-Analyzer/
 │
-├── Student_Dashboard.xlsx
+├── Student_Result_Analyzer.xlsx
 ├── README.md
-├── Dashboard_Screenshot.png
-└── Dataset.xlsx
+└── Student_Result_Analyzer_Presentation.pptx
 ```
 
 ---
 
-## 🎯 Business Value
+# 🎯 Business Value
 
-This dashboard enables schools and educational institutions to:
+This dashboard helps educational institutions to:
 
-- Track academic performance
-- Improve decision-making
-- Identify high and low performers
-- Monitor attendance trends
-- Analyze subject performance
-- Generate actionable insights
+- Monitor student academic performance.
+- Analyze pass and fail statistics.
+- Compare subject-wise performance.
+- Identify top-performing students.
+- Generate interactive student report cards.
+- Improve academic reporting efficiency.
+- Support data-driven educational decisions.
 
 ---
 
-## 🔮 Future Improvements
+# 🔮 Future Improvements
 
-- Power Query Integration
+- Power Query Automation
 - Power Pivot Data Model
-- Automated Report Cards
-- Student Search Feature
-- Teacher Performance Dashboard
-- Department-wise Analytics
-- Power BI Version
-- Predictive Performance Analysis using Machine Learning
+- Power BI Dashboard
+- Student Search Functionality
+- Attendance Analytics Dashboard
+- Predictive Student Performance Analysis
+- Automated PDF Report Card Generation
+- Email Report Card Automation using VBA
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
 **Ramtanay Chakraborty**
 
-- Aspiring Data Analyst
-- Python Developer
-- AI & Machine Learning Enthusiast
+**Aspiring Data Analyst | Python Developer | AI & Machine Learning Enthusiast**
 
 ---
 
-## ⭐ If you found this project helpful
-
-Please consider giving it a ⭐ on GitHub!
+## ⭐ If you found this project helpful, consider giving it a Star on GitHub!
